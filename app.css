@@ -1,0 +1,50 @@
+body{
+    background-color: black;
+}
+#navbar{
+    background-color: #424242;
+    margin-top: 10px;
+    padding: 0;
+    height: 100px;
+    
+}
+
+.navbar-toggler {
+    padding-right: 30px;
+    color: #ffeb3b;
+}
+
+.nav-link{;
+    color: #ffeb3b;
+    margin: 0;
+    font-family: 'Nunito', sans-serif;
+    border: 5px;
+    font-size: 1.2rem;
+    transition: 0.5s;
+    
+}
+.nav-link:hover{
+    background-color: #ffeb3b;
+    color: black;
+
+}
+
+.navbar-nav{
+    padding-right: 15px;
+}
+
+.navbar-brand{
+    color: #ffeb3b;
+    padding-left: 15px;
+    font-weight: 400;
+    font-family: 'Abril Fatface', cursive;
+    font-size: 2.8rem;
+    transition: 0.4s;
+
+}
+
+.navbar-brand:hover{
+    color: #ffeb3b;
+    transform: scale(1.1);
+  
+}
