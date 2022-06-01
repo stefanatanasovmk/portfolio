@@ -1,6 +1,5 @@
 .Work {
-     /* height: 50vh; */
-     padding-top: 5vh;
+     height: 100vh;
      width: 100%;
      display: flex;
      flex-direction: column;
@@ -12,11 +11,12 @@
 
 .Projects {
      width: 100%;
+     height: 80%;
      display: flex;
      flex-direction: row;
      flex-wrap: wrap;
      justify-content: center;
-     align-items: center;
+     align-items: flex-start;
 
 }
 
@@ -26,16 +26,22 @@
      align-items: center;
      justify-content: space-between;
      width: 40%;
-     /* height: 30%; */
      padding: 1%;
      margin: 1%;
-     background-color: rgb(255, 212, 148);
      transition: 0.3s ease-in-out;
+     /* filter: drop-shadow(10px 30px 5px #0202026c); */
 }
 
 .Image {
-     width: 80%;
+     width: 100%;
      cursor: pointer;
+     filter: drop-shadow(10px 20px 5px #0202026c);
+     transition: 0.6s ease-in-out;
+}
+
+.Image:hover {
+     transform: scale(1.2);
+     /* transform: rotateX(500deg) */
 }
 
 
@@ -45,8 +51,8 @@
      text-align: center;
 }
 
-@media (max-width:500px) {
+/* @media (max-width:500px) {
      .Project {
           width: 90%;
      }
-}
+} */
