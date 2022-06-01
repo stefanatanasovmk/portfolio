@@ -1,0 +1,111 @@
+.NavBar {
+     height: 80px;
+     background-color: aquamarine;
+     width: 100%;
+     display: flex;
+     flex-direction: row;
+     justify-content: space-around;
+}
+
+.Logo {
+     height: 120px;
+     cursor: pointer;
+     transition: ease-in-out 0.5s;
+}
+
+.GitHubIcon,
+.LinkedInIcon {
+     transition: ease-in-out 0.5s;
+}
+
+.GitHubIcon:hover,
+.LinkedInIcon:hover,
+.Logo:hover {
+     transform: scale(1.1);
+}
+
+.LogoDiv {
+     align-self: center;
+     width: 20%;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+}
+
+.Empty {
+     width: 20%;
+}
+
+.Links {
+     height: 100%;
+     width: 40%;
+     display: flex;
+     flex-direction: row;
+     justify-content: space-around;
+     align-items: center;
+}
+
+.NavBarLinks {
+     cursor: pointer;
+}
+
+.NavBarLinks,
+a {
+     text-decoration: none;
+     color: black;
+}
+
+ul {
+     list-style-type: none;
+}
+
+.Profiles {
+     width: 20%;
+     display: flex;
+     flex-direction: row;
+     justify-content: space-around;
+     align-items: center;
+}
+
+.HamburgerMenu {
+     display: none;
+}
+
+@media (max-width:1061px) {
+
+     .NavBarLinks,
+     .DropDownLinks>a {
+          font-size: 0.8em;
+     }
+}
+
+@media (max-width:850px) {
+     .Links {
+          display: none;
+     }
+
+     .HamburgerMenu {
+          display: flex;
+          flex-direction: row;
+          align-items: center;
+          justify-content: flex-start;
+          width: 30%;
+          cursor: pointer;
+     }
+
+     .DropDownLinks {
+          min-width: 200px;
+          display: flex;
+          flex-direction: column;
+          align-items: flex-start;
+          justify-content: space-between;
+          padding: 1%;
+     }
+
+     .NavBarLinks,
+     .DropDownLinks>a {
+          width: 100%;
+          padding: 3%;
+          font-size: 1.5em;
+     }
+}

@@ -1,0 +1,14 @@
+.Footer {
+     /* width: 100%; */
+     height: 5vh;
+     background-color: cadetblue;
+     display: flex;
+     flex-direction: row;
+     justify-content: space-between;
+     align-items: center;
+     padding: 1%;
+}
+
+.Footer>p {
+     font-size: 0.6em;
+}

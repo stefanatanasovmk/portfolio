@@ -1,0 +1,26 @@
+.Skills {
+     width: 100%;
+     height: 50vh;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: space-around;
+     background-color: coral;
+}
+
+.Icons {
+     width: 100%;
+     display: flex;
+     flex-direction: row;
+     justify-content: space-around;
+     align-items: center;
+     flex-wrap: wrap;
+}
+
+.skillsIcon {
+     transition: 0.3s ease-in-out;
+}
+
+.skillsIcon:hover {
+     transform: scale(1.1);
+}
