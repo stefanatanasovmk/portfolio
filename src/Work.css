@@ -51,8 +51,12 @@
      text-align: center;
 }
 
-/* @media (max-width:500px) {
+@media (max-width:700px) {
      .Project {
-          width: 90%;
+          width: 80%;
      }
-} */
+
+     .Work {
+          height: 100%;
+     }
+}
