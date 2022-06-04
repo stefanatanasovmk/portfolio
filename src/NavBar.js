@@ -1,5 +1,4 @@
 import React, { useState } from "react"
-import logo from "./images/AtanasovLogo.png"
 import "./NavBar.css"
 import { Popover } from "@mui/material";
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
@@ -51,11 +50,11 @@ export default function NavBar() {
                     <Link className='NavBarLinks' to="work" spy={true} smooth={true} offset={0} duration={1000} > 0.3 Work | </Link>
                     <Link className='NavBarLinks' to="contact" spy={true} smooth={true} offset={0} duration={1000} > 0.4 Contact</Link>
                </div>
-               <div className="LogoDiv">
+               {/* <div className="LogoDiv">
                     <div className="box">
                          <img src={logo} alt="logo" className="Logo" />
                     </div>
-               </div>
+               </div> */}
                <div className="Empty"></div>
                <div className="Profiles">
                     <a href="https://www.linkedin.com/in/stefan-atanasov-a2b824116/" target="_blank" rel="noreferrer"><LinkedInIcon className="LinkedInIcon" /></a>
