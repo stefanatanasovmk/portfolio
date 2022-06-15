@@ -7,19 +7,9 @@
      justify-content: space-between;
 }
 
-.Logo {
-     height: 120px;
-     cursor: pointer;
-     transition: ease-in-out 0.5s;
-}
 
-.GitHubIcon,
-.LinkedInIcon {
-     transition: ease-in-out 0.5s;
-}
 
-.GitHubIcon:hover,
-.LinkedInIcon:hover,
+
 .Logo:hover {
      transform: scale(1.1);
 }
@@ -35,9 +25,12 @@
      justify-content: center;
 }
 
-.Empty {
-     width: 20%;
+.Logo {
+     height: 120px;
+     cursor: pointer;
+     transition: ease-in-out 0.5s;
 }
+
 
 .Links {
      height: 100%;
@@ -50,6 +43,26 @@
 
 .NavBarLinks {
      cursor: pointer;
+     display: inline-block;
+     position: relative;
+}
+
+.NavBarLinks:after {
+     content: '';
+     position: absolute;
+     width: 100%;
+     transform: scaleX(0);
+     height: 3px;
+     bottom: 0;
+     left: 0;
+     background-color: cornflowerblue;
+     transform-origin: bottom right;
+     transition: transform 0.25s ease-out;
+}
+
+.NavBarLinks:hover:after {
+     transform: scaleX(1);
+     transform-origin: bottom left;
 }
 
 .NavBarLinks,
@@ -82,7 +95,7 @@ ul {
      }
 }
 
-@media (max-width:850px) {
+@media (max-width:887px) {
      .Links {
           display: none;
      }

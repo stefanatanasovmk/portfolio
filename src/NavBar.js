@@ -48,13 +48,8 @@ export default function NavBar() {
                     <Link className='NavBarLinks' to="about" spy={true} smooth={true} offset={0} duration={1000} >0.1 About | </Link>
                     <Link className='NavBarLinks' to="skills" spy={true} smooth={true} offset={0} duration={1000} > 0.2 Skills | </Link>
                     <Link className='NavBarLinks' to="work" spy={true} smooth={true} offset={0} duration={1000} > 0.3 Work | </Link>
-                    <Link className='NavBarLinks' to="contact" spy={true} smooth={true} offset={0} duration={1000} > 0.4 Contact</Link>
+                    <Link className='NavBarLinks' to="contact" spy={true} smooth={true} offset={0} duration={1000} > 0.4 Contact |</Link>
                </div>
-               {/* <div className="LogoDiv">
-                    <div className="box">
-                         <img src={logo} alt="logo" className="Logo" />
-                    </div>
-               </div> */}
                <div className="Empty"></div>
                <div className="Profiles">
                     <a href="https://www.linkedin.com/in/stefan-atanasov-a2b824116/" target="_blank" rel="noreferrer"><LinkedInIcon className="LinkedInIcon" /></a>
