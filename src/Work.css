@@ -39,7 +39,6 @@
 
 .Image:hover {
   transform: scale(1.2);
-  /* transform: rotateX(500deg) */
 }
 
 .Project > a,
@@ -49,6 +48,6 @@
 
 @media (max-width: 600px) {
   .Project {
-    width: 80%;
+    width: 70%;
   }
 }
