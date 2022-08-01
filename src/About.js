@@ -2,7 +2,7 @@ import React from "react";
 import "./About.css"
 import photo from "./images/AtanasovPhoto.png"
 import Typer from "./Typer";
-const text = "Hey, my name is Stefan Atanasov, I'm a Web Developer...and I also like frozen smoothies...and this font."
+const text = "Hey, my name is Stefan Atanasov, I'm a Web Developer."
 export default function About() {
 
      return (

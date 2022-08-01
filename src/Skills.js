@@ -7,6 +7,7 @@ import muiBig from "./images/icons8-material-ui-100.png"
 import mongoBig from "./images/icons8-mongodb-a-cross-platform-document-oriented-database-program-100.png"
 import nodeBig from "./images/icons8-nodejs-100.png"
 import reactBig from "./images/icons8-react-100.png"
+import typeScript from "./images/icons8-typescript-96.png"
 const text = "I like working with these technologies..."
 export default function Skills() {
      return (
@@ -30,6 +31,9 @@ export default function Skills() {
                     </div>
                     <div>
                          <a href="https://mui.com/" target="_blank" rel="noreferrer"><img src={muiBig} alt="Material UI logo" className="skillsIcon" /></a>
+                    </div>
+                     <div>
+                         <a href="https://typescriptlang.org/" target="_blank" rel="noreferrer"><img src={typeScript} alt="TypeScript logo" className="skillsIcon" /></a>
                     </div>
                </div>
           </div>
